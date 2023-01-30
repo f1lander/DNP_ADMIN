@@ -91,7 +91,7 @@ export default function SideBar() {
         <div className="funded-by-text">SUPPORTED BY</div>
         <div className="funded-by-logos">
           {fundedBy.map((item, i) => (
-            <a key={i} href={item.link}>
+            <a key={i} href={item.link} target="_blank">
               <img
                 src={item.logo}
                 className="img-fluid funded-by-logo"
